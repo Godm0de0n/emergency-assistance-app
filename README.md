@@ -55,6 +55,15 @@ A web-based emergency assistance application with SOS alerts, location tracking,
 - `/server`: Backend Express server
 - `/shared`: Shared type definitions and schemas
 
+## Deployment
+
+This project is configured for deployment on Vercel:
+
+1. Connect your GitHub repository to Vercel
+2. Vercel will automatically detect the project configuration
+3. No additional build settings are required as the project includes a `vercel.json` file
+4. The application will be built and deployed automatically
+
 ## License
 
 This project is open source and available under the MIT License.
