@@ -50,7 +50,7 @@ export async function registerRoutes(app: Express): Promise<Server> {
       
       // Always return a "failed" response for this mockup
       res.status(500).json({ 
-        message: 'Failed message sent. This is a mockup - no actual message was sent.',
+        message: 'Emergency message failed to send. Please try again or call emergency services directly.',
         alert 
       });
     } catch (error) {
@@ -86,7 +86,7 @@ export async function registerRoutes(app: Express): Promise<Server> {
       
       // Always return a "failed" response for this mockup
       res.status(500).json({ 
-        message: 'Failed to upload. This is a mockup - no actual upload occurred.',
+        message: 'Video upload failed. Please check your connection and try again later.',
         recording 
       });
     } catch (error) {

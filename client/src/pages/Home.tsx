@@ -2,7 +2,6 @@ import { useState } from "react";
 import SosButton from "@/components/SosButton";
 import PhoneNumberForm from "@/components/PhoneNumberForm";
 import VideoRecorder from "@/components/VideoRecorder";
-import Documentation from "@/components/Documentation";
 import Alert from "@/components/Alert";
 
 export type AlertType = {
@@ -55,11 +54,10 @@ export default function Home() {
         showAlert={showAlert} 
       />
 
-      <Documentation />
-
       <footer className="text-center text-xs text-gray-500 mt-8">
         <p>Emergency Assistance Application v1.0</p>
         <p>In a real emergency, always call your local emergency number directly.</p>
+        <p className="text-xs text-gray-400 mt-1">Created with by Abhisek</p>
       </footer>
     </div>
   );
